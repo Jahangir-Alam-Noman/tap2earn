@@ -1,0 +1,46 @@
+.withDrawItem {
+  width: 40%;
+  background: white;
+  height: 14rem;
+}
+
+.inputMessage {
+  height: 5rem;
+  background: #f8f9fac7;
+  width: 80%;
+  padding: 2rem;
+  /* text-align: center; */
+  font-weight: bold;
+  border-radius: 1rem;
+}
+
+.buttonInput {
+  padding: 2rem 0px;
+  width: 20%;
+  background: #15775f;
+  margin-left: 1rem;
+  border-radius: 9px;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.inputField {
+  display: flex !important;
+}
+
+@media (max-width: 648px) {
+  .inputField {
+    display: block !important;
+  }
+  .inputMessage {
+    width: 100%;
+    height: 3rem;
+  }
+  .buttonInput {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 1rem;
+    padding: 1rem 0px;
+  }
+}
